@@ -12,46 +12,40 @@ body {
 
 .box1 {
     grid-column-start: 1;
-    grid-column-end: 1;
+    grid-column-end: 7;
     grid-row-start: 2;
-    grid-row-end: 1;
+    grid-row-end: 2;
     background-color: aqua;
     text-align: center;
 }
 
 .box2 {
     grid-column-start: 1;
-    grid-row-start: 2;
-    grid-row-end: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 10;
     background-color: red;
 }
 
 .box3 {
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
     background-color: green;
 }
 
 .box4 {
-    grid-column-start: 2;
-    grid-row-start: 2;
-    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-row-start: 6;
+    grid-row-end: 8;
     background-color: black;
     color: white;
 }
 
 .box5 {
-    grid-column-start: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
+    grid-column-start: 6;
+    grid-row-start: 6;
+    grid-row-end: 8;
     background-color: gray;
-}
-
-.box6 {
-    grid-column-start: 3;
-    grid-row-start: 2;
-    grid-row-end: 2;
-    background-color: purple;
 }
